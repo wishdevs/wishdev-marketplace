@@ -5,14 +5,14 @@
     "email": "wishdev@example.com"
   },
   "metadata": {
-    "description": "MCP plugins, skills, commands, and agents for Claude Code",
+    "description": "Claude Code를 위한 MCP 플러그인, 스킬, 명령어, 에이전트",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "etribe",
       "source": "./",
-      "description": "Complete etribe toolkit: MCP servers, commands, skills, and agents",
+      "description": "etribe 전체 툴킷: MCP 서버, 명령어, 스킬, 에이전트",
       "version": "1.0.0",
       "mcpServers": {
         "sequential-thinking": {
@@ -49,7 +49,7 @@
     {
       "name": "sequential-thinking",
       "source": "./plugins/sequential-thinking",
-      "description": "Step-by-step problem solving through structured thinking",
+      "description": "단계별 사고를 통한 복잡한 문제 해결",
       "version": "1.0.0",
       "mcpServers": {
         "sequential-thinking": {
@@ -61,7 +61,7 @@
     {
       "name": "context7",
       "source": "./plugins/context7",
-      "description": "Library documentation and code examples search",
+      "description": "라이브러리 문서 및 코드 예제 검색",
       "version": "1.0.0",
       "mcpServers": {
         "context7": {
@@ -73,7 +73,7 @@
     {
       "name": "serena",
       "source": "./plugins/serena",
-      "description": "Semantic code analysis and editing (LSP integration)",
+      "description": "시맨틱 코드 분석 및 편집 (LSP 통합)",
       "version": "1.0.0",
       "mcpServers": {
         "serena": {
@@ -85,7 +85,7 @@
     {
       "name": "playwright",
       "source": "./plugins/playwright",
-      "description": "Browser automation (Microsoft official)",
+      "description": "브라우저 자동화 (Microsoft 공식)",
       "version": "1.0.0",
       "mcpServers": {
         "playwright": {

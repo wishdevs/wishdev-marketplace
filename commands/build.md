@@ -1,4 +1,4 @@
-# /build - Build and Packaging Command
+# /build - 빌드 및 패키징 명령어
 
 Project compilation and packaging with sophisticated error management.
 

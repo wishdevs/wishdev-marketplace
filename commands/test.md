@@ -1,4 +1,4 @@
-# /test - Testing and Quality Assurance Command
+# /test - 테스트 및 품질 보증 명령어
 
 Test execution and analysis utility for comprehensive quality assurance.
 

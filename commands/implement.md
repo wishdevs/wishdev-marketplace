@@ -1,4 +1,4 @@
-# /implement - Feature Implementation Command
+# /implement - 기능 구현 명령어
 
 Provides a systematic workflow for feature implementation.
 
