@@ -1,0 +1,61 @@
+{
+  "name": "wishdev-marketplace",
+  "owner": {
+    "name": "WishDev",
+    "email": "wishdev@example.com"
+  },
+  "metadata": {
+    "description": "MCP plugins, skills, commands, and agents for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "sequential-thinking",
+      "source": "./plugins/sequential-thinking",
+      "description": "Step-by-step problem solving through structured thinking",
+      "version": "1.0.0",
+      "mcpServers": {
+        "sequential-thinking": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+        }
+      }
+    },
+    {
+      "name": "context7",
+      "source": "./plugins/context7",
+      "description": "Library documentation and code examples search",
+      "version": "1.0.0",
+      "mcpServers": {
+        "context7": {
+          "command": "npx",
+          "args": ["-y", "@upstash/context7-mcp"]
+        }
+      }
+    },
+    {
+      "name": "serena",
+      "source": "./plugins/serena",
+      "description": "Semantic code analysis and editing (LSP integration)",
+      "version": "1.0.0",
+      "mcpServers": {
+        "serena": {
+          "command": "uvx",
+          "args": ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server"]
+        }
+      }
+    },
+    {
+      "name": "playwright",
+      "source": "./plugins/playwright",
+      "description": "Browser automation (Microsoft official)",
+      "version": "1.0.0",
+      "mcpServers": {
+        "playwright": {
+          "command": "npx",
+          "args": ["@playwright/mcp@latest"]
+        }
+      }
+    }
+  ]
+}
