@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "description": "브라우저 자동화 기능을 제공하는 공식 Microsoft MCP 플러그인",
+  "version": "1.0.0",
+  "author": "Microsoft",
+  "repository": "https://github.com/microsoft/playwright-mcp",
+  "npm": "https://www.npmjs.com/package/@playwright/mcp",
+  "mcpConfig": {
+    "command": "npx",
+    "args": ["@playwright/mcp@latest"]
+  },
+  "requirements": {
+    "nodejs": ">=18.0.0"
+  },
+  "tags": ["browser", "automation", "web", "testing", "scraping"],
+  "category": "automation"
+}

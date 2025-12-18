@@ -1,0 +1,12 @@
+{
+  "name": "sequential-thinking",
+  "description": "단계별 사고를 통한 복잡한 문제 해결 MCP 플러그인",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "mcpConfig": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+  },
+  "tags": ["thinking", "reasoning", "problem-solving"],
+  "category": "productivity"
+}

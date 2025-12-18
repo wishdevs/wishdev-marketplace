@@ -1,0 +1,17 @@
+{
+  "name": "serena",
+  "description": "시맨틱 코드 분석 및 편집 기능을 제공하는 코딩 에이전트 MCP 플러그인",
+  "version": "1.0.0",
+  "author": "Oraios AI",
+  "repository": "https://github.com/oraios/serena",
+  "mcpConfig": {
+    "command": "uvx",
+    "args": ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server"]
+  },
+  "requirements": {
+    "python": ">=3.10",
+    "uv": "required"
+  },
+  "tags": ["code-analysis", "semantic-search", "editing", "lsp", "multi-language"],
+  "category": "development"
+}
