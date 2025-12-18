@@ -10,6 +10,43 @@
   },
   "plugins": [
     {
+      "name": "etribe-full",
+      "source": ".",
+      "description": "Complete etribe toolkit: MCP servers, commands, skills, and agents",
+      "version": "1.0.0",
+      "mcpServers": {
+        "sequential-thinking": {
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+        },
+        "context7": {
+          "command": "npx",
+          "args": ["-y", "@upstash/context7-mcp"]
+        },
+        "serena": {
+          "command": "uvx",
+          "args": ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server"]
+        },
+        "playwright": {
+          "command": "npx",
+          "args": ["@playwright/mcp@latest"]
+        }
+      },
+      "commands": [
+        "./commands/implement.md",
+        "./commands/build.md",
+        "./commands/test.md"
+      ],
+      "skills": [
+        "./skills/confidence-check"
+      ],
+      "agents": [
+        "./agents/self-review.md",
+        "./agents/root-cause-analyst.md",
+        "./agents/refactoring-expert.md"
+      ]
+    },
+    {
       "name": "sequential-thinking",
       "source": "./plugins/sequential-thinking",
       "description": "Step-by-step problem solving through structured thinking",
