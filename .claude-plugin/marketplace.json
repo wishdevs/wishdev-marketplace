@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "etribe-full",
+      "name": "etribe",
       "source": "./",
       "description": "Complete etribe toolkit: MCP servers, commands, skills, and agents",
       "version": "1.0.0",
